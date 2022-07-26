@@ -1,0 +1,256 @@
+*{
+    font-family: 'Nunito', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    /* border: none; */
+    /* text-transform: capitalize; */
+    transition: all .2s linear;
+}
+
+body{
+    display: flex;
+}
+
+input{
+    width: 70%;
+    height: 5vh;
+    border-radius: 5px;
+}
+
+.login-page{
+    background-color: white;
+    width: 50%;
+    height: 100vh;
+    color: red;
+}
+.sign-in .img-Sign-in{
+    margin: 5% 5% 0;
+    font-size: 30px;
+    font-weight: bold;
+    font-style: italic;
+}
+.sign-in .create-new-Horizon-Ventures{
+    margin: 0 5% 5%;
+    font-size: 20px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.input-Email{
+    margin: 0 5% 5%;
+}
+.input-Email .Email{
+    font-size: 15px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.input-password{
+    margin: 0 5% 5%;
+}
+.input-password .password{
+    font-size: 15px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.register{
+    color: white;
+    background-color: rgb(43, 15, 146);
+    width: 63%;
+    height: 5vh;
+    border-radius: 5px;
+    font-weight: bold;
+    margin: 0 5% 5%;
+    font-style: italic;
+}
+.register:hover{
+    color: black;
+    background-color: white;
+    width: 63%;
+    height: 5vh;
+    border-radius: 5px;
+    font-weight: bold;
+    margin: 0 5% 5%;
+    font-style: italic;
+}
+
+.sign-in{
+    display: block;
+    font-style: italic;
+    padding-top: 5%;
+}
+.already-have-account{
+    font-weight: bold;
+    font-size: 18px;
+    margin: 0 5% 5%;
+}
+.sign-in .already-have-account a{
+    text-decoration: none;
+}
+.condition{
+    font-weight: bold;
+    font-size: 18px;
+    margin: 0 5% 5%;
+    font-style: italic;
+
+}
+.sign-in .condition a{
+    text-decoration: none;
+    justify-content: space-between;
+}
+.sign-in .condition .Privacy-Policy-condition{
+    margin-left: 20px;
+}
+.sign-in .condition .Help{
+    margin-left: 20px;
+}
+.sign-in .Rights-Reserved{
+    margin: 0 5% 5%;
+    font-size: 18px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+
+
+
+
+.img-page{
+    background-color: rgb(235, 235, 245);
+    width: 50%;
+    height: 100vh;
+}
+.img-page .Horizon-Ventures{
+    font-size: 50px;
+    font-weight: bold;
+    font-style: italic;
+    margin: 10% 15% 0;
+    color: blue;
+}
+.img-page .login-to-your-dashboard{
+    font-size: 15px;
+    font-weight: bold;
+    font-style: italic;
+    margin: 0 12% 0;
+    color: red;
+}
+.img img{
+    width: 100%;
+    height: 76vh;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* media queries */
+@media(max-width: 991px){
+    .img-page{
+        display: none;
+    }
+
+    input{
+        width: 75%;
+        height: 3vh;
+        border-radius: 5px;
+    }
+
+    .login-page{
+        background-color: white;
+        width: 100%;
+        height: 100vh;
+        color: red;
+    }
+
+    .sign-in .img-Sign-in{
+        margin: 10% 7% 0;
+        font-size: 20px;
+        font-weight: bold;
+        font-style: italic;
+    }
+    .sign-in .create-new-Horizon-Ventures{
+        margin: 0 7% 5%;
+        font-size: 15px;
+        font-weight: bold;
+        font-style: italic;
+    }
+
+    .input-Email{
+        margin: 15% 10% 5%;
+    }
+    .input-Email .Email{
+        font-size: 12px;
+        font-weight: bold;
+        font-style: italic;
+    }
+    .input-password{
+        margin: 0 10% 5%;
+    }
+    .input-password .password{
+        font-size: 12px;
+        font-weight: bold;
+        font-style: italic;
+    }
+
+    .register{
+        color: white;
+        background-color: rgb(43, 15, 146);
+        width: 60%;
+        height: 3vh;
+        border-radius: 5px;
+        font-weight: bold;
+        margin: 5% 10% 10%;
+        font-style: italic;
+        font-size: 12px;
+    }
+    .register:hover{
+        color: black;
+        background-color: white;
+        width: 60%;
+        height: 3vh;
+        border-radius: 5px;
+        font-weight: bold;
+        margin: 5% 10% 10%;
+        font-style: italic;
+        font-size: 12px;
+    }
+
+    .already-have-account{
+        font-weight: bold;
+        font-size: 12px;
+        margin: 10% 10% 5%;
+    }
+    .condition{
+        font-weight: bold;
+        font-size: 12px;
+        margin: 0 10% 5%;
+        font-style: italic;
+    
+    }
+    .sign-in .condition a{
+        text-decoration: none;
+        justify-content: space-between;
+    }
+    .sign-in .condition .Privacy-Policy-condition{
+        margin-left: 10px;
+    }
+    .sign-in .condition .Help{
+        margin-left: 10px;
+    }
+    .sign-in .Rights-Reserved{
+        margin: 0 10% 5%;
+        font-size: 12px;
+        font-weight: bold;
+        font-style: italic;
+    }
+}

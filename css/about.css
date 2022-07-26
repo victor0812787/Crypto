@@ -1,0 +1,346 @@
+*{
+    font-family: 'Nunito', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    text-transform: capitalize;
+    transition: all .2s linear;
+}
+
+
+nav .container .navbar-brand{
+    font-size: 25px;
+    color: white;
+    font-weight: bolder;
+
+}
+ul li a{
+    display: flex;
+    margin-left: 40px;
+    font-size: 15px;
+}
+.nav-link{
+    color: white;
+}
+.person{
+    display: flex;
+    color: rgb(27, 249, 27)ite;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: bolder;
+}
+.person svg{
+    color: ivory;
+}
+.person p{
+    color:ivory;
+}
+
+.button{
+    display: flex;
+    position: relative;
+}
+.carousel-inner p{
+    font-size: 27px;
+    color: ivory;
+    font-weight: bolder;
+}
+.up{
+    background-color: #FFF6EA;
+    background-size: cover;
+}
+.body{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.Features{
+    display: block;
+    text-align: center;
+    font-style: italic;
+    color: black;
+    margin-top: 50px;
+    font-weight: bolder;
+}
+
+
+.About-Us{
+    background-image: url(../imgs/kanchanara-23.jpg);
+    background-size: cover;
+    display: flex;
+}
+.about-body{
+    color: #FFEEEE;
+    text-transform: capitalize;
+    font-style: italic;
+    justify-content: space-between;
+    display: block;
+    margin: 5% 2% 5%;
+    padding: 4% 3%;
+    text-align: justify;
+}
+.About{
+    font-weight: bolder;
+    font-size: 35px;
+}
+.About-Invesment,
+.Certified,
+.Quality-investment{
+    font-weight: bold;
+    font-size: 25px;
+}
+.about-later,
+.Certified-body,
+.Quality-investment-body{
+    font-weight: bold;
+    font-size: 15px;
+}
+.img-about-side{
+    width: 50%;
+    height: 45%;
+    margin-top: 12%;
+}
+
+.Copyright{
+    display: flex;
+    background-color: #FFEEEE;
+    background-size: cover;
+    padding: -30% 0;
+}
+.Join-millions{
+    font-weight: bold;
+    font-size: 15px;
+    font-style: italic;
+    margin: 15% 5%;
+    text-align: justify;
+}
+.Useful-Link{
+    display: block;
+    font-style: italic;
+    font-weight: bolder;
+    text-align: justify;
+    font-size: 20px;
+    margin: 15% 5%;
+}
+.Useful-Link a{
+    display: block;
+    font-style: italic;
+    text-decoration: none;
+    text-align: justify;
+    font-weight: bold;
+    color: rgb(26, 15, 105);
+}
+.Contact-1{
+    display: block;
+    font-style: italic;
+    font-weight: bolder;
+    text-align: justify;
+    font-size: 20px;
+    margin: 15% 5%;
+}
+.Contact-1 a{
+    display: block;
+    font-style: italic;
+    text-decoration: none;
+    text-align: justify;
+    font-weight: bold;
+    color: rgb(26, 15, 105);
+}
+
+.social-up{
+    display: block;
+    background-color: #FFEEEE;
+    background-size: cover;
+    text-align: center;
+    justify-content: center;
+    justify-items: center;
+    padding: 5% 0;
+    
+}
+.social-follow-us{
+    font-size: 25px;
+    font-weight: bold;
+    font-style: italic;
+}
+.social-img a{
+    color: black;
+    font-size: 30px;
+    font-weight: bold;
+    font-style: italic;
+    justify-content: space-around;
+}
+
+
+.copy-start{
+    background-color: #FFEEEE;
+    background-size: cover;
+    font-weight: bolder;
+    font-size: 20px;
+    font-style: italic;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* media queries */
+@media(max-width: 991px){
+
+    nav .container .navbar-brand{
+        padding: 1rem 2rem;
+        /* background-color: white; */
+        color: white;
+        /* font-size: 2.5rem; */
+        font-weight: bolder;
+    }
+    .nav-link{
+        font-weight: bolder;
+        color: white;
+    }
+    .person{
+        display: flex;
+        color: rgb(27, 249, 27)ite;
+        text-decoration: none;
+        font-size: 15px;
+        /* font-size: 2.5rem; */
+        font-weight: bolder;
+    }
+    .person svg{
+        color: white;
+    }
+    .person p{
+        color:white;
+    }
+
+    .About-Us{
+        background: rgb(41, 40, 40);
+    }
+    .about-body{
+        color: white;
+        text-transform: capitalize;
+        /* font-weight: bolder; */
+        font-style: italic;
+        justify-content: space-between;
+        display: block;
+        /* margin: 5% 2% 5%; */
+        /* padding: 4% 3%; */
+        text-align: justify;
+    }
+    .About{
+        font-weight: bolder;
+        font-size: 25px;
+    }
+    .About-Invesment,
+    .Certified,
+    .Quality-investment{
+        font-weight: bold;
+        font-size: 20px;
+    }
+    .about-later,
+    .Certified-body,
+    .Quality-investment-body{
+        font-weight: bold;
+        font-size: 13px;
+    }
+    .img-about-side{
+        display: none;
+        width: 50%;
+        height: 45%;
+        margin-top: 12%;
+    } 
+
+
+    .Copyright{
+        display: block;
+        background-color: rgb(177, 177, 211);
+        background-size: cover;
+    }
+    .Join-millions{
+        font-weight: bold;
+        font-size: 13px;
+        font-style: italic;
+        margin: 0 2%;
+        text-align: justify;
+        padding: 4% 5%;
+    }
+    .Useful-Link{
+        display: block;
+        font-style: italic;
+        text-align: justify;
+        font-size: 15px;
+        padding: 11% 5%;
+        margin: -15% 5%;
+    }
+    .Useful-Link a{
+        display: block;
+        font-style: italic;
+        text-decoration: none;
+        text-align: justify;
+        color: rgb(26, 15, 105);
+    }
+    .Contact-1{
+        display: block;
+        font-style: italic;
+        text-align: justify;
+        font-size: 15px;
+        margin: -10% 5%;
+        padding: 11% 5%;
+    }
+    .Contact-1 a{
+        display: block;
+        font-style: italic;
+        text-decoration: none;
+        text-align: justify;
+        color: rgb(26, 15, 105);
+    }
+    .social-up{
+        display: block;
+        background-color: rgb(177, 177, 211);
+        background-size: cover;
+        text-align: center;
+        justify-content: center;
+        justify-items: center;
+        padding: 4% 5%;
+    }
+    .social{
+        display: block;
+        font-style: italic;
+        text-align: justify;
+        margin: -10% 5%;
+        padding: 10% 5%;
+    }
+    .social-follow-us{
+        font-size: 15px;
+        font-weight: bold;
+        font-style: italic;
+    }
+    .social-img a{
+        color: black;
+        font-size: 20px;
+        font-weight: bold;
+        font-style: italic;
+        justify-content: space-around;
+    }
+    .copy-start{
+        background-color: rgb(177, 177, 211);
+        background-size: cover;
+        font-size: 15px;
+        font-style: italic;
+        text-align: center;
+        margin: 0 0;
+    }
+}
